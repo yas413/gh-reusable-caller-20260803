@@ -1,8 +1,8 @@
-name: GH-R37 public reusable sibling control
+name: GH-R37 private reusable immutable-ref probe
 
 on:
   workflow_dispatch:
 
 jobs:
-  public-call:
-    uses: yas4133/gh-ruleset-lab-20260730/.github/workflows/reusable-public-r37.yml@main
+  foreign-call:
+    uses: yas4133/gh-reusable-private-20260803/.github/workflows/reusable-private.yml@5fcc994eb74096957674e60c3356315aa331c830
