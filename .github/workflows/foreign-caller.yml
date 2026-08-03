@@ -1,0 +1,8 @@
+name: GH-R37 foreign reusable probe
+
+on:
+  workflow_dispatch:
+
+jobs:
+  foreign-call:
+    uses: yas4133/gh-reusable-private-20260803/.github/workflows/reusable-private.yml@main
